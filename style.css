@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	box-sizing: border-box;
+	justify-content: space-around;
+}
+body {
+	background-image: url(../img/alien.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+.logo img {
+	height: 40px;
+	padding-left: 30px;
+	background-position: center;
+}
+
+.site-header {
+	width: 100%;
+	height: 100vh;
+}
+
+nav {
+	width: 100%;
+	height: 100px;
+	/*background-color:  red;*/
+	display: flex;
+	color: rgb(145, 10, 10);
+	padding: .5rem 1rem;
+	background: #0f8a9d;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.nav-link {
+	color: rgba(16, 0, 236, 0.5);
+	font-weight: 600px;
+	font-size: 16px;
+}
+
+.logo {
+	width: 50%;
+	height: 100px;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.menu {
+	width: 50%;
+	height: 100px;
+}
+
+.menu ul {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menu ul li {
+	list-style: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.menu :hover {
+	color: white;
+}
+
+section {
+	display: flex;
+}
+
+.rightside {
+	width: 55%;
+	height: 300px;
+	color: white;
+	text-align: center;
+	margin-top: 80px;
+	padding: 40px;
+}
+
+.rightside h1 {
+	text-align: center;
+	color: rgb(25, 0, 255);
+	font-size: 50px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.rightside p {
+	font-size: 1.1rem;
+	padding: 30px 0;
+}
+
+.rightside button {
+	font-size: 17px;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+	background: linear-gradient(57deg, #000000, #23079e);
+	border-radius: 4px 4px 4px 4px;
+	padding: 20px 35px;
+	text-align: center;
+}
+
+.rightside button:hover {
+	background: linear-gradient(57deg, #23079e, #000000);
+}
+/*--------about------*/
+.bg {
+	width: 100%;
+	height: 110vh;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-image: url(../img/giphygif.gif);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+/*-------footer-------*/
+.footer {
+	font-size: 14px;
+	text-align: center;
+	padding: 3px;
+	padding-right: 20px;
+	background: black;
+	color: black;
+	margin-bottom: 10px;
+	box-shadow: 0 0 10 px black;
+	border: 2px black solid;
+	border-radius: 7px;
+	margin-top: 150px;
+	color: wheat;
+}
